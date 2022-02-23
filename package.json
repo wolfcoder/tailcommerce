@@ -1,15 +1,15 @@
 {
-	"name": "tailpress",
+	"name": "tailcommerce",
 	"version": "3.0.0",
 	"description": "Boilerplate WordPress theme with Tailwind CSS.",
-	"author": "Jeffrey van Rossum",
+	"author": "Bambang setyawan",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/jeffreyvr/tailpress"
+		"url": "https://github.com/wolfcoder/tailcommerce"
 	},
-	"theme_uri": "https://github.com/jeffreyvr/tailpress",
-	"author_uri": "https://vanrossum.dev",
-	"text_domain": "tailpress",
+	"theme_uri": "https://github.com/wolfcoder/tailcommerce",
+	"author_uri": "https://pixelmedia.id",
+	"text_domain": "tailcommerce",
 	"license": "MIT",
 	"scripts": {
 		"production:css-app": "tailwindcss -i ./resources/css/app.css -o ./css/app.css --postcss --minify",
