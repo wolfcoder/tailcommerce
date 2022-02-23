@@ -1,0 +1,31 @@
+/*Search top bar*/
+#search-top-bar {
+    @apply relative block mt-4;
+.wp-block-search__inside-wrapper  {
+    @apply relative block bg-white rounded-md p-0 pr-9 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm;
+input {
+    @apply placeholder:italic w-full py-2 pl-3  rounded-md
+}
+
+button {
+    @apply absolute inset-y-0 right-0 flex items-center pr-2 border-0;
+}
+}
+}
+
+#menu-top-bar {
+    @apply lg:mx-auto lg:container;
+div {
+    @apply mb-0;
+}
+
+ul {
+    @apply flex overflow-x-auto scrollbar-hide no-scrollbar text-white;
+li {
+    @apply p-4 ;
+a {
+    @apply whitespace-nowrap;
+}
+}
+}
+}

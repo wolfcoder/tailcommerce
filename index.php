@@ -1,4 +1,9 @@
 <?php get_header(); ?>
+<!--    <pre>--><?php
+//        var_dump($wp_filter);?><!-- </pre>-->
+
+<!-- --><?php //      R_Debug::list_hooks('the_title');?>
+
 
 <div class="container mx-auto my-8">
 

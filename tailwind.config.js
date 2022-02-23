@@ -20,7 +20,10 @@ module.exports = {
             },
         },
         extend: {
-            colors: tailpress.colorMapper(tailpress.theme('settings.color.palette', theme))
+            colors: tailpress.colorMapper(tailpress.theme('settings.color.palette', theme)),
+            fontFamily:{
+                sans: ["Proxima Nova", "ui-sans-serif"],
+            },
         },
         screens: {
             'sm': '640px',
@@ -30,6 +33,7 @@ module.exports = {
         }
     },
     plugins: [
-        tailpress.tailwind
+        tailpress.tailwind,
+        require('tailwind-scrollbar-hide')
     ]
 };

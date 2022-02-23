@@ -1,5 +1,25 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
-
 @import "custom.css";
+
+@layer base {
+    @font-face {
+        font-family: sans;
+        /*font-weight: 400;*/
+        src: url(fonts/proximanova-regular-webfont.woff) format("woff");
+    }
+}
+
+
+@layer utilities {
+    /* Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+
+    .no-scrollbar {
+        -ms-overflow-style: none; /* IE and Edge */
+        scrollbar-width: none; /* Firefox */
+    }
+}
